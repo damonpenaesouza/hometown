@@ -144,3 +144,46 @@ footer{
     padding:10px;
     text-align: center;
 }
+
+/* Responsividade*/
+@media (max-width: 768px) {
+  #atractions {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .hosp, .comida, .natureza {
+    width: 90%;
+    height: auto;
+  }
+
+  #guide {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  #guide img {
+    width: 100%;
+    height: auto;
+  }
+
+  #hero h1, #hero p {
+    font-size: 5vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    aspect-ratio: 4/3;
+  }
+
+  #guide {
+    width: 95%;
+  }
+
+  #hero h1, #hero p {
+    font-size: 6vw;
+  }
+}
