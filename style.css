@@ -12,12 +12,16 @@ body{
 #hero {
     background-image: url("images/Minas2.png");
     background-size: cover;
-    height: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 16/9; /* Mantém a proporção da imagem */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 #hero h1 {
     font-family: "ADLaM Display", system-ui;
